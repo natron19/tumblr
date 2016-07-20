@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  schema_search_path: "public,shared_extensions"
+  encoding: unicode
+  database: tumblr_development
+  pool: 5
+  timeout: 5000
+  username: nathanrohm
+  password:
+
+test:
+  adapter: postgresql
+  schema_search_path: "public,shared_extensions"
+  encoding: unicode
+  database: tumblr_test
+  pool: 5
+  timeout: 5000
+  username: nathanrohm
+  password:
+
+production:
+  adapter: postgresql
+  schema_search_path: "public,shared_extensions"
+  encoding: unicode
+  database: tumblr_production
+  pool: 5
+  timeout: 5000
+  username: nathanrohm
+  password:
